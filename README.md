@@ -54,3 +54,6 @@ DELETE User
 ```
 curl -i -X DELETE http://localhost:8080/api/v1/users/1
 ```
+### Author
+Gustavo Zanoni - gutavato@gmail.com -
+[LinkedIn](https://br.linkedin.com/in/gustavo-zanoni-6371a791 "LinkedIn Link")
