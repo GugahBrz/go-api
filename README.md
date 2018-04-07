@@ -9,11 +9,11 @@ Table "User"
 * name: varchar(255) / Not-Null
 
 Routes
-* POST : http://127.0.0.1:8080/api/v1/users
-* GET : http://127.0.0.1:8080/api/v1/users
-* GET : http://127.0.0.1:8080/api/users/1
-* PUT : http://127.0.0.1:8080/api/users/1
-* DELETE : http://127.0.0.1:8080/api/users/1
+* POST : http://127.0.0.1:3001/api/v1/users
+* GET : http://127.0.0.1:3001/api/v1/users
+* GET : http://127.0.0.1:3001/api/users/1
+* PUT : http://127.0.0.1:3001/api/users/1
+* DELETE : http://127.0.0.1:3001/api/users/1
 
 ### Dependencies 
 
@@ -55,5 +55,5 @@ curl -i -X PUT -H "Content-Type: application/json" -d "{ \name\": \"Zanoni\" }" 
 curl -i -X DELETE http://localhost:8080/api/v1/users/1
 ```
 ### Author
-Gustavo Zanoni - gutavato@gmail.com -
+Gustavo Zanoni -
 [LinkedIn](https://br.linkedin.com/in/gustavo-zanoni-6371a791 "LinkedIn Link")
