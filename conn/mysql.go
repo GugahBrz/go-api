@@ -8,14 +8,6 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
-type connection struct {
-	DatabaseHost string `default:"localhost"`
-	DatabasePort string `default:"3306"`
-	DatabaseName string `default:"go-api"`
-	DatabaseUser string `default:"root"`
-	DatabasePass string `default:"root"`
-}
-
 // InitDb init db connection
 func InitDb() *gorm.DB {
 
