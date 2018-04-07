@@ -32,27 +32,27 @@ go get github.com/jinzhu/gorm
 
 ###### POST User
 ```
-curl -i -X POST -H "Content-Type: application/json" -d "{ \"name\": \"Zanoni\" }" http://localhost:8080/api/v1/users}
+curl -i -X POST -H "Content-Type: application/json" -d "{ \"name\": \"Zanoni\" }" http://localhost:3001/api/v1/users}
 ```
 
 ###### GET User
 ```
-curl -i http://localhost:8080/api/v1/users/1
+curl -i http://localhost:3001/api/v1/users/1
 ```
 
 ###### GET Users
 ```
-curl -i http://localhost:8080/api/v1/users
+curl -i http://localhost:3001/api/v1/users
 ```
 
 ###### PUT User
 ```
-curl -i -X PUT -H "Content-Type: application/json" -d "{ \name\": \"Zanoni\" }" http://localhost:8080/api/v1/users/1}
+curl -i -X PUT -H "Content-Type: application/json" -d "{ \name\": \"Zanoni\" }" http://localhost:3001/api/v1/users/1}
 ```
 
 ###### DELETE User
 ```
-curl -i -X DELETE http://localhost:8080/api/v1/users/1
+curl -i -X DELETE http://localhost:3001/api/v1/users/1
 ```
 ### Author
 Gustavo Zanoni -
