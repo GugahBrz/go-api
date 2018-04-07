@@ -28,7 +28,7 @@ go get github.com/jinzhu/gorm
 > You need to create a new schema in your database and configure him in this project.<br>
 > You can configure the connection strings from conn/mysql.go
 
-### Tests
+### Basic Usage
 
 ###### POST User
 ```
