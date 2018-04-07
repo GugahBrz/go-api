@@ -1,8 +1,6 @@
 package conn
 
 import (
-	"fmt"
-
 	"github.com/GugahBrz/go-api/models"
 	"github.com/jinzhu/gorm"
 
@@ -21,10 +19,7 @@ type connection struct {
 // InitDb init db connection
 func InitDb() *gorm.DB {
 
-	var c connection
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local",
-		c.DatabaseUser, c.DatabasePass, c.DatabaseHost, c.DatabasePort, c.DatabaseName)
-	db, err := gorm.Open("mysql", dsn)
+	db, err := gorm.Open("mysql", "root:root@tcp(localhost:3306)/go-api")
 
 	if err != nil {
 		panic(err)

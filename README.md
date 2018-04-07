@@ -17,11 +17,11 @@ Routes
 
 ### Dependencies 
 
-Gin for routes
+###### Gin for routes
 ```
 go get github.com/gin-gonic/gin
 ```
-Gorm for ORM
+###### Gorm for ORM
 ```
 go get github.com/jinzhu/gorm
 ```
@@ -30,27 +30,27 @@ go get github.com/jinzhu/gorm
 
 ### Tests
 
-POST User
+###### POST User
 ```
 curl -i -X POST -H "Content-Type: application/json" -d "{ \"name\": \"Zanoni\" }" http://localhost:8080/api/v1/users}
 ```
 
-GET User
+###### GET User
 ```
 curl -i http://localhost:8080/api/v1/users/1
 ```
 
-GET Users
+###### GET Users
 ```
 curl -i http://localhost:8080/api/v1/users
 ```
 
-PUT User
+###### PUT User
 ```
 curl -i -X PUT -H "Content-Type: application/json" -d "{ \name\": \"Zanoni\" }" http://localhost:8080/api/v1/users/1}
 ```
 
-DELETE User
+###### DELETE User
 ```
 curl -i -X DELETE http://localhost:8080/api/v1/users/1
 ```
